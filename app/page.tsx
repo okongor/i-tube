@@ -155,7 +155,7 @@ export default function Chat() {
 
       {/* Main Content Area */}
       <div className="flex-1 overflow-auto p-4">
-        <div className="max-w-2xl  mx-auto">
+        <div className="max-w-2xl my-24 mx-auto">
           {/* Welcome Message */}
           {messages.length === 0 && (
             <div className="text-center py-8 space-y-4">
